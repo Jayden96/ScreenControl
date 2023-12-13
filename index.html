@@ -1,0 +1,58 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Screen Owner Controls</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#screen-management">Screen Management</a></li>
+            <li><a href="#scheduled-content">Scheduled Content</a></li>
+            <li><a href="#financial-reports">Financial Reports</a></li>
+        </ul>
+    </nav>
+
+    <div class="dashboard">
+        <div class="overview-section">
+            <!-- Overview content goes here -->
+        </div>
+
+               <div class="screen-grid">
+            <!-- Repeat this ScreenCard component for each screen -->
+            <div class="screen-card">
+                <img class="screen-thumbnail" src="screen_image.jpg" alt="Screen Thumbnail">
+                <h3>Taman Tun</h3>
+                <h4>Media House Sdn Bhd</h4>
+                <p>Current Content: Milo</p>
+                <p>Client: Client Nestle</p>
+                <p>Price: RM100/hr</p>
+                <p>Next Available Date</p>
+                <button class="adjust-price-btn">Adjust Time</button>
+                <button class="details-btn">View Details</button>
+            </div>
+          <div class="screen-card">
+                <img class="screen-thumbnail" src="screen_image.jpg" alt="Screen Thumbnail">
+                <h3>Federal</h3>
+                <h4>Media House Sdn Bhd</h4>
+                <p>Current Content: Oatster</p>
+                <p>Client: Client Oatster</p>
+                <p>Price: RM100/hr</p>
+                <p>Next Available Date</p>
+                <button class="adjust-price-btn">Adjust Time</button>
+                <button class="details-btn">View Details</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright ©️ 2023 Acacia 6</p>
+    </footer>
+</body>
+</html>
