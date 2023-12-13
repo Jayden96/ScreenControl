@@ -1,0 +1,105 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D7D2D4;
+    color: #171D2E;
+}
+
+nav {
+    background-color: #4A4A4A; /* Dark Gray for Navbar */
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #1C49AF;
+}
+
+header {
+    background-color: #1C49AF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.dashboard {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.screen-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.screen-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #ecf0f1;
+    transition: transform 0.3s;
+}
+
+.screen-card:hover {
+    transform: scale(1.05);
+}
+
+.screen-thumbnail {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.adjust-price-btn,
+.details-btn {
+    background-color: #2366DA;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.adjust-price-btn:hover,
+.details-btn:hover {
+    background-color: #1E53B8;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1E53B8;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
